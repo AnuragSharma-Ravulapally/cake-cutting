@@ -15,5 +15,6 @@ for i in range(N):
     if(cakeangle<0):
         print("NO the cake will not cut into %d pieces such that no two of them are equal"%N)
         break
+        #It finally prints the out come into how many pieces the cake can be cut
 else:
         print("YES the cake will cut into %d pieces such that no two of them are equal"%N)
